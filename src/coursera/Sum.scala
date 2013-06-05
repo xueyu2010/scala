@@ -1,5 +1,6 @@
 package coursera
 
+
 object Sum {
   /*
    * Take the sun of the integer between a and b
