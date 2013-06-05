@@ -71,7 +71,4 @@ object Sum {
 	
 	def sumInts2 = sum2( x => x)
 	// use: sumInts2(1,2)
-	
-
-	
 }
