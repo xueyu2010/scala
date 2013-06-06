@@ -1,0 +1,23 @@
+Types
+	numeric type: Int, Double
+	Boolean type
+	String type
+	function type, like Int => Int or (Int, Int) => Int
+	
+Expressions
+	An Identifier such as x, isGoodEnough
+	A literal, like 0, 1.0, "abc"
+	A function application, like sqrt(x)
+	An operator application, like -x, y+x
+	A selection, like math.abs
+	A conditional expression, like if(x < 0) -x else x
+	A block, like { val x = math.abs(y); x *2 }
+	An anonymous function, like x => x+1
+	
+Definitions
+	A function definition, like def square (x:Int) = x*x
+	A value definition, like val y = square(2)
+	
+Parameter
+	call-by-value parameter, like (x:Int)
+	call-by-name parameter, like ( y: => Double)
